@@ -37,7 +37,6 @@ jobs:
       with:
        name: Logs
        path: logs/
-
        
     - name: Publish Test Report
       if: always()
